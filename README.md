@@ -1,4 +1,4 @@
-```markdown
+
 # API Scraper
 
 This Python script is a web scraper that fetches data from a specified API and stores it in a CSV file. It is designed to extract product information, including product name, details, sale price, and links.
