@@ -23,7 +23,7 @@ if response.status_code == 200:
     parsed_response = json.loads(response.text)
 
     # Create a CSV file for the second API data
-    with open("saleAssistant/products/public.csv", "a", newline="") as csvfile:
+    with open("file.csv", "a", newline="") as csvfile:
         csv_writer = csv.writer(csvfile)
         headers = ["Product Name", "Product Details", "Sale Price", "Link"]
         csv_writer.writerow(headers)  # Write headers
@@ -54,6 +54,6 @@ if response.status_code == 200:
             # Write data to the CSV file
             csv_writer.writerow([product_name, product_details, sale_price, link])
 
-    print("Data from the second API has been scraped and saved to public_second.csv")
+    print("Data from the second API has been scraped and saved to file.csv")
 else:
     print("Failed to fetch data from the second API. Status code:", response.status_code)
