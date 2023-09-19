@@ -1,4 +1,3 @@
-```markdown
 # API Scraper
 
 This Python script is a web scraper that fetches data from a specified API and stores it in a CSV file. It is designed to extract product information, including product name, details, sale price, and links.
@@ -8,15 +7,8 @@ This Python script is a web scraper that fetches data from a specified API and s
 Before running the script, make sure you have the following:
 
 - Python 3.x installed on your system.
-- Required Python libraries: `requests` (for making HTTP requests) and `csv` (for handling CSV files).
 
-You can install the required libraries using pip:
-
-```bash
-pip install requests
-```
-
-## Usage
+## Installation
 
 1. Clone the repository to your local machine:
 
@@ -30,12 +22,22 @@ pip install requests
    cd API-Scrapper
    ```
 
-3. Open the `scraper.py` file and fill out the following placeholders with appropriate values:
+3. Install the required Python libraries from the `requirements.txt` file:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+This will install the necessary libraries, including `requests` for making HTTP requests and `csv` for handling CSV files.
+
+## Usage
+
+1. Open the `scraper.py` file and fill out the following placeholders with appropriate values:
 
    - `querystring`: Replace `"fill out with appropriate values"` with the actual query parameters for the API.
    - `headers`: Fill out the `"cookie"` and `"User-Agent"` fields with the appropriate values for your use case.
 
-4. Run the script:
+2. Run the script:
 
    ```bash
    python scraper.py
