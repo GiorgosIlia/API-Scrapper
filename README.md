@@ -69,4 +69,3 @@ If you'd like to contribute to this project, please follow the standard GitHub w
 If you encounter any issues or have suggestions for improvements, please open an issue on the [Issues](https://github.com/GiorgosIlia/API-Scrapper/issues) page.
 
 Happy scraping!
-```
